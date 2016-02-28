@@ -25,7 +25,7 @@ public class clasePrueba {
 		try {			
 			//Con base de datos H2 (PRUEBA) 
 			//Usuario: sa
-			//Pass: (No hay)
+			//Pass:
 			Class.forName("org.h2.Driver");
 			DriverManager.getConnection("jdbc:h2:tcp://"+pIp+"/C:/H2DB/BD_Ruara", pUsu, "");
 			//DriverManager.getConnection("jdbc:h2:C:/H2DB/BD_Ruara", pUsu, String.valueOf(pPass));
